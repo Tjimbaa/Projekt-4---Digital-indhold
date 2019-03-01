@@ -134,7 +134,7 @@ li {
 }
 
 .box-1 {
-  flex: 3;
+  flex: 1;
   order: 1;
   padding: 10px 10px;
 }
@@ -143,9 +143,10 @@ li {
   flex: 1;
   order: 2;
   background-image: url("../img/yngre.jpg");
-  flex-basis: 50%;
+  flex-basis: 10%;
+  height: 300px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 10px 10px;
 }
