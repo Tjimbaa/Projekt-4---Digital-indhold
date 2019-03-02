@@ -154,14 +154,14 @@ nav li {
   margin-bottom: -25px;
 }
 
-.fakta-pic {
-  float: left;
-}
-
-.fakta-pic img {
-  width: 300px;;
-  margin-bottom: 10px;
-  height: 380px;
+#fakta-pictu {
+  display: block;
+  background-image: url("../img/yngre2.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 80%;
 }
 
 #dna-pictu {
