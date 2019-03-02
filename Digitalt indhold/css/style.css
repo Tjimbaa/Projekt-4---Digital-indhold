@@ -137,6 +137,15 @@ li {
   flex: 1;
   order: 1;
   padding: 10px 10px;
+  background-color: #1EBBB3;
+}
+
+.box-1 h1 {
+  color: yellow;
+}
+
+.box-1 p {
+  color: white;
 }
 
 .box-2 {
