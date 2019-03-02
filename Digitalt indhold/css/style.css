@@ -113,49 +113,23 @@ li {
   */
 }
 
-#section-c {
-  display: flex;
-  /*
-  align-items: flex-start;
-  align-items: flex-end;
-  align-items: center;
-  flex-direction: column;
-  */
+.wrapper {
+  width: 1250px;
+  margin: 0 auto;
 }
 
-#section-c .box1, #section-c .box3 {
-  background: #926239;
-  color: #fff;
-
-}
-
-#section-c .box2 {
-  background: #f9f9f9;
-}
-
-.box-1 {
-  flex: 1;
-  order: 1;
-  padding: 10px 10px;
-  background-color: #1EBBB3;
-}
-
-.box-1 h1 {
-  color: yellow;
-}
-
-.box-1 p {
-  color: white;
-}
-
-.box-2 {
-  flex: 1;
-  order: 2;
-  background-image: url("../img/yngre.jpg");
-  flex-basis: 10%;
+.boks div {
+  width: calc(50% - 20px);
   height: 300px;
-  background-position: center;
-  background-size: cover;
+  margin: 10px;
+  float:left;
+  padding-bottom: 80px;
+}
+
+#fakta-pictu {
+  background-image: url("../img/yngre2.jpeg");
+  background-size: contain;
   background-repeat: no-repeat;
-  padding: 10px 10px;
+  background-position: center;
+  display: block;
 }
