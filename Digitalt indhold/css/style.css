@@ -49,15 +49,13 @@ header .logo a {
 }
 
 
+/*            Startside                 */
 
-
-/*              Main                    */
+#
 
 .bluetext {
   color: #1ebbb3;
 }
-
-/*            startside                 */
 
 #showcase {
   display: flex;
@@ -167,6 +165,12 @@ header .logo a {
   height: 80%;
 }
 
+#mere:hover {
+  transition: 0.6s;
+  transform: scale(0.85);
+}
+
+
 /*            footer                */
 
 footer {
@@ -205,10 +209,17 @@ footer ul li {
   margin: 0 5px 0 0;
 }
 
+#facebook:hover {
+  transition: 0.6s;
+  transform: scale(0.85);
+}
 
+#twitter:hover {
+  transition: 0.6s;
+  transform: scale(0.85);
+}
 
-
-
-#footer-some1 {
-  background-image: url("img/facebook.png");
+#linkedin:hover {
+  transition: 0.6s;
+  transform: scale(0.85);
 }
